@@ -1,0 +1,153 @@
+Return-Path: <3s6HmWxAJAHYimqUfnUfpUlUXixxagUcf.Wig@doclist.bounces.google.com>
+Received: from localhost (localhost [127.0.0.1])
+	by eugeni.torproject.org (Postfix) with ESMTP id 0E8A9E0AD0
+	for <tor-relays@lists.torproject.org>; Sat, 10 Nov 2018 09:15:36 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at 
+Received: from eugeni.torproject.org ([127.0.0.1])
+	by localhost (eugeni.torproject.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WppxJuyzdTtI for <tor-relays@lists.torproject.org>;
+	Sat, 10 Nov 2018 09:15:35 +0000 (UTC)
+Received: from mail-vs1-xe45.google.com (mail-vs1-xe45.google.com [IPv6:2607:f8b0:4864:20::e45])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client CN "smtp.gmail.com", Issuer "Google Internet Authority G3" (not verified))
+	by eugeni.torproject.org (Postfix) with ESMTPS id B871AE0A81
+	for <tor-relays@lists.torproject.org>; Sat, 10 Nov 2018 09:15:35 +0000 (UTC)
+Received: by mail-vs1-xe45.google.com with SMTP id w206so1274327vsc.2
+        for <tor-relays@lists.torproject.org>; Sat, 10 Nov 2018 01:15:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:references:message-id:date:subject:from:to:cc;
+        bh=IgGl1ceiAKUP84wgbmk8495TiwASltvlmGN2P06PYMw=;
+        b=dS3czuKhKEkmDlW+tji59bqHh6cTt+BajMSGk6veHnT+qyO7+K+a+QiQE2/VKaggC1
+         v9qOtmTaZMQK3/4WxOfsT+B47JxLwHwwo3z9+mx1osjEB0AbwqX0+bXcvQNpAC0CWpfk
+         6OadmWpdRCvsizewZrk3rittjyLVcuF+uP+upCV6TJo6SmhxGz0gXQtP3gpVNx/1+MyR
+         JiwJFW6IPkLkAT2S1fKKeVycXeLOfhwdgdK042qed3H8+jwuWhoyXCVe6U13pZOv3BXY
+         XqBlKHhkexh8kC8lBzs1DrejKYYX3sfCdpsdgY3x7CFvrnK8CfYXEC/vcbMWuKAXYaHK
+         FAeQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:references:message-id:date
+         :subject:from:to:cc;
+        bh=IgGl1ceiAKUP84wgbmk8495TiwASltvlmGN2P06PYMw=;
+        b=kHbeTQ9r9M+BdEclCN2anKTtCZhkxysyXNpAqtJiaGoqdh35FDxJu2dp09yQNjGKxb
+         DSNoixeYTB7+f4WyawPdJK5HacOVcoPDp5mInnV2fXBtJTG4/lwL+wnF8fhRZBf2WZ+0
+         bcsTi4xS/uE969SnskPUTAHdaUDvystbdxIf8pWF0n96mmmNizSOKTKC6HiWS5CJ/hUy
+         FDDMsq1c5VQ1wqkZlRhhTv1DNQqJLuhc0vSp5IeSgNelZTGyjU2NXO5mwvSQS2P2HbSP
+         yXPAYb6yJ5arfjJeaGg2EYQwjeR0qvD/a7/5l98w+JmVPEvDWnrZX3L9yQELls3WChY3
+         5ALQ==
+X-Gm-Message-State: AGRZ1gJALLlkAj5bFxDNGBSBu0nopT3D9eh/7H3E3PUID4vtu5Uf5MZV
+	wMuEkvgV/CbWhEtHunkEYFPoCURojB0=
+X-Google-Smtp-Source: AJdET5dEURKB+av6fHLag3gMs5vQZNxUQioyVclt/exlXtN79wBHtm8Bz2uIUwzkte10W5a9nGUhS6uBEgc=
+MIME-Version: 1.0
+X-Received: by 2002:a1f:1947:: with SMTP id 68mr10140028vkz.14.1541841331777;
+ Sat, 10 Nov 2018 01:15:31 -0800 (PST)
+Reply-To: Oswalt Alvarado <oswaltalvarado33@gmail.com>
+X-No-Auto-Attachment: 1
+References: <f5738542-7d52-4b23-a433-ff7360dea4c7@docs-share.google.com>
+Message-ID: <000000000000e17a11057a4be8b7@google.com>
+Date: Sat, 10 Nov 2018 09:15:31 +0000
+Subject: =?UTF-8?Q?LICENSE_=2D_Invitaci=C3=B3n_para_editar?=
+From: "Oswalt Alvarado (mediante Documentos de Google)" <oswaltalvarado33@gmail.com>
+To: tor-relays@lists.torproject.org
+Cc: Oscarzanchesarteaga34@gmail.com, Oswaltalvarado33@gmail.com, 
+	oswaltalvarado33@gmail.com, Oswaltalvarado@gmail.com, enterprise@github.com, 
+	licensing@mozilla.org, oswaltaguamar@gmail.com, reports@f-droid.org, 
+	tor-relays-owner@lists.torproject.org
+Content-Type: multipart/alternative; boundary="000000000000e179e9057a4be8b4"
+
+--000000000000e179e9057a4be8b4
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SGUgY29tcGFydGlkbyB1biBlbGVtZW50byBjb250aWdvOg0KDQpMSUNFTlNFDQpodHRwOi8vZG9j
+cy5nb29nbGUuY29tL2RvY3VtZW50L2QvMWlRZHVJZE9QNVhpZHZwTXdsdy1FR2ZpQXFrMHVMV2dq
+YnktV3l2MUVDTUUvZWRpdD91c3A9c2hhcmluZyZpbnZpdGU9Q05MTDNMc0gmdHM9NWJlNmExYjMN
+Cg0KTm8gZXMgdW4gYXJjaGl2byBhZGp1bnRvOyBlc3TDoSBhbG1hY2VuYWRvIGVuIGzDrW5lYS4g
+UGFyYSBhYnJpciBlc3RlICANCmVsZW1lbnRvLCBoYXogY2xpYyBlbiBlbCB2w61uY3VsbyBkZSBh
+cnJpYmEuDQoNCkJ1ZW5hcw0K
+--000000000000e179e9057a4be8b4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"width: 100%; padding: 24px 0 16px 0;=
+ background-color: #f5f5f5; text-align: center;"><div style=3D"display: inl=
+ine-block; width: 90%; max-width: 680px;min-width: 280px; text-align: left;=
+ font-family: Roboto,Arial,Helvetica,sans-serif;"><div style=3D"height: 0px=
+;" dir=3D"ltr"></div><div style=3D"display: block; padding: 0 2px;"><div st=
+yle=3D"display: block; background: #fff; height: 2px;"></div></div><div sty=
+le=3D"border-left: 1px solid #f0f0f0; border-right: 1px solid #f0f0f0;"><di=
+v style=3D"padding: 24px 32px 24px 32px; background:#fff; border-right: 1px=
+ solid #eaeaea; border-left: 1px solid #eaeaea;" dir=3D"ltr"><div style=3D"=
+font-size: 14px; line-height: 18px; color: #444;"><a href=3D"mailto:oswalta=
+lvarado33@gmail.com" style=3D"color:inherit;text-decoration:none">Oswalt Al=
+varado</a> te invit=C3=B3 a <b>editar</b> el siguiente documento</div><div =
+style=3D"height: 10px;"></div><div style=3D"font-size: 18px; display: table=
+;"><div style=3D"display: table-row; border-bottom: 4px solid #fff;"><span =
+style=3D"display: table-cell;"><div style=3D"height: 32px;"><img src=3D"htt=
+ps://ssl.gstatic.com/docs/documents/share/images/services/document-4.png" a=
+ria-label=3D"Documento" style=3D"vertical-align: middle; max-width: 24px;"/=
+></div></span><span style=3D"display: table-cell; padding-left: 12px; word-=
+break: break-word;"><a href=3D"http://docs.google.com/document/d/1iQduIdOP5=
+XidvpMwlw-EGfiAqk0uLWgjby-Wyv1ECME/edit?usp=3Dsharing_eil&amp;invite=3DCNLL=
+3LsH&amp;ts=3D5be6a1b3" style=3D"color: #3367d6; text-decoration: none; ver=
+tical-align: middle;">LICENSE</a><div itemprop=3D"action" itemscope itemtyp=
+e=3D"http://schema.org/ViewAction"><meta itemprop=3D"url" content=3D"http:/=
+/docs.google.com/document/d/1iQduIdOP5XidvpMwlw-EGfiAqk0uLWgjby-Wyv1ECME/ed=
+it?usp=3Dsharing_eil&amp;invite=3DCNLL3LsH&amp;ts=3D5be6a1b3"></div></span>=
+</div></div><div style=3D"height: 16px;"></div><div style=3D"height: 1px; b=
+ackground-color: #eee;"></div><div style=3D"height: 24px;"></div><div style=
+=3D"display: table-row;"><img style=3D"display: table-cell;" width=3D"50" s=
+rc=3D"https://drive.google.com/c/photos/public/AIbEiAIAAABCCMn4gs3Nzb8xIgt2=
+Y2FyZF9waG90byooZTk2MTIwNGNmMmJlMTE1OTExMGU2NTFhMjJmZmJjNTkwMjBhOTFiNDAB1vZ=
+5hr9SHnxlV308VNUdokkAwoc" alt=3D"Sender&#39;s profile photo"><span style=3D=
+"display: table-cell; vertical-align: top; padding-left: 16px; font-size: 1=
+3px; line-height: 18px; max-width: 496px; color: #262626;">Buenas </span></=
+div><div style=3D"height: 32px;"></div><div><a href=3D"http://docs.google.c=
+om/document/d/1iQduIdOP5XidvpMwlw-EGfiAqk0uLWgjby-Wyv1ECME/edit?usp=3Dshari=
+ng_eip&amp;invite=3DCNLL3LsH&amp;ts=3D5be6a1b3" target=3D"_blank" style=3D"=
+background-color: #4d90fe; border: 1px solid #3079ed; border-radius: 2px; c=
+olor: white; display: inline-block; font-family: Roboto,Arial,Helvetica,san=
+s-serif; font-size: 11px; font-weight: bold; height: 29px; line-height: 29p=
+x; min-width: 54px; outline: 0px; padding: 0 8px; text-align: center; text-=
+decoration: none">Abrir en Documentos</a></div><div style=3D"height: 24px;"=
+></div><div style=3D"background: #fce8b2; font-size: 13px; color: #444; bor=
+der-radius: 2px; padding: 5px 10px;">Este correo electr=C3=B3nico concede a=
+cceso al elemento sin tener que acceder a la cuenta. Solamente reenv=C3=ADa=
+lo a las personas de confianza.</div></div></div><table style=3D"width: 100=
+%; border-collapse: collapse;" role=3D"presentation"><tr><td style=3D"paddi=
+ng: 0px;"><table style=3D"border-collapse: collapse; width: 3px;" role=3D"p=
+resentation"><tr height=3D"1"><td width=3D"1" bgcolor=3D"#f0f0f0" style=3D"=
+padding: 0px;"></td><td width=3D"1" bgcolor=3D"#eaeaea" style=3D"padding: 0=
+px;"></td><td width=3D"1" bgcolor=3D"#e5e5e5" style=3D"padding: 0px;"></td>=
+</tr><tr height=3D"1"><td width=3D"1" bgcolor=3D"#f0f0f0" style=3D"padding:=
+ 0px;"></td><td width=3D"1" bgcolor=3D"#eaeaea" style=3D"padding: 0px;"></t=
+d><td width=3D"1" bgcolor=3D"#eaeaea" style=3D"padding: 0px;"></td></tr><tr=
+ height=3D"1"><td width=3D"1" bgcolor=3D"#f5f5f5" style=3D"padding: 0px;"><=
+/td><td width=3D"1" bgcolor=3D"#f0f0f0" style=3D"padding: 0px;"></td><td wi=
+dth=3D"1" bgcolor=3D"#f0f0f0" style=3D"padding: 0px;"></td></tr></table></t=
+d><td style=3D"width: 100%; padding: 0px;"><div style=3D"height: 1px; width=
+: auto; border-top: 1px solid #ddd; background:#eaeaea; border-bottom: 1px =
+solid #f0f0f0;"></div></td><td style=3D"padding: 0px;"><table style=3D"bord=
+er-collapse: collapse; width: 3px;" role=3D"presentation"><tr height=3D"1">=
+<td width=3D"1" bgcolor=3D"#e5e5e5" style=3D"padding: 0px;"></td><td width=
+=3D"1" bgcolor=3D"#eaeaea" style=3D"padding: 0px;"></td><td width=3D"1" bgc=
+olor=3D"#f0f0f0" style=3D"padding: 0px;"></td></tr><tr height=3D"1"><td wid=
+th=3D"1" bgcolor=3D"#eaeaea" style=3D"padding: 0px;"></td><td width=3D"1" b=
+gcolor=3D"#eaeaea" style=3D"padding: 0px;"></td><td width=3D"1" bgcolor=3D"=
+#f0f0f0" style=3D"padding: 0px;"></td></tr><tr height=3D"1"><td width=3D"1"=
+ bgcolor=3D"#f0f0f0" style=3D"padding: 0px;"></td><td width=3D"1" bgcolor=
+=3D"#f0f0f0" style=3D"padding: 0px;"></td><td width=3D"1" bgcolor=3D"#f5f5f=
+5" style=3D"padding: 0px;"></td></tr></table></td></tr></table><table style=
+=3D"padding: 14px 10px 0 10px;" role=3D"presentation" dir=3D"ltr"><tr><td s=
+tyle=3D"width: 100%; font-size:11px; font-family: Roboto,Arial,Helvetica,sa=
+ns-serif; color:#646464; line-height: 20px; min-height: 40px; vertical-alig=
+n: middle;">Documentos de Google: crea y edita documentos en l=C3=ADnea. <b=
+r/>Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<br/>=
+ Recibiste este correo electr=C3=B3nico porque alguien comparti=C3=B3 conti=
+go un documento desde Documentos de Google.</td><td style=3D"padding-left: =
+20px; vertical-align: middle;"><a href=3D"http://drive.google.com" target=
+=3D"_blank"><img src=3D"https://www.gstatic.com/images/branding/googlelogo/=
+1x/googlelogo_tm_black54_color_96x40dp.png" width=3D"96" alt=3D"Logotipo de=
+ Documentos de Google" border=3D"0"></a></td></tr></table></div></div></bod=
+y></html>
+--000000000000e179e9057a4be8b4--
